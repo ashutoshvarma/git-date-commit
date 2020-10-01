@@ -1,5 +1,5 @@
 # Git Date Commit
-Simple bash script to batch commits for given date range. 
+Simple bash script for automating commits in bulk for given date range while executing command/script.
 
 ## Usage
 
@@ -44,3 +44,13 @@ Run custom script with date and day as args before commits ranging from date
   $ gdc.sh -s '2020/08/04' -e '2020/12/31' -x './myscript.sh ${date} ${day}'
 Note the single quotes in -x to prevent variable substitution for placeholders
 ```
+
+## LICENSE
+MIT
+Copyright (c) 2020 Ashutosh Varma
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
